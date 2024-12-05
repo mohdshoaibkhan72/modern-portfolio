@@ -4,36 +4,27 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Main Stylesheet -->
     <link rel="stylesheet" href="style.css" />
 
-    <!-- Fontawesome -->
-    <link
-      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-      rel="stylesheet"
-    />
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <!-- AOS (Animate on Scroll) -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
 
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
 
     <!-- Calendar -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css"
-    />
+    <link rel="stylesheet" href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css" />
 
     <!-- Swiper JS -->
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/swiper/swiper-bundle.min.css"
-    />
-    <link
-    href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
-    rel="stylesheet"
-  />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
-    <title>Mohammad Shoaib khan</title>
-  </head>
+    <!-- Page Title -->
+    <title>Portfolio | Mohammad Shoaib Khan - Web Developer</title>
+</head>
 
-  <body id="body-container">
+  <body id="body-container" >
     <section class="main-section">
       <div class="hero-section" >
         <nav class="navbar " >
@@ -65,8 +56,8 @@
             </div>
            
         </nav>
-        <div class="hero-section-text">
-          <div class="hero-content" >
+        <div class="hero-section-text"   >
+          <div class="hero-content"data-aos="fade-left" >
             <h1>Mohammad</h1>
             <h1>Shoaib</h1>
             <p>Full-stack Developer</p>
@@ -245,10 +236,10 @@
     </section>
 
     
-    <section class="work-section">
+    <section class="work-section" >
       <h2>Latest Works</h2>
-      <div class="project project2">
-        <div class="project-img">
+      <div class="project project2" >
+        <div class="project-img"  >
           <div class="project-img-wrapper">
             <a
               href="https://ems-hr.vercel.app/"
@@ -288,7 +279,7 @@
             </a>
           </div>
         </div>
-        <div class="project-details">
+        <div class="project-details"  data-aos="fade-left">
           <h3>Employee Management System</h3>
           <span>(Fully Functional)</span>
           <p>
@@ -330,7 +321,7 @@
         <div class="circle-extension"></div>
       </div>
       <div class="project project3">
-        <div class="project-details">
+        <div class="project-details"  data-aos="fade-right">
           <h3>E-commerce website</h3>
           <span>(Softwar Development )</span>
           
@@ -453,7 +444,7 @@
             </a>
           </div>
         </div>
-        <div class="project-details">
+        <div class="project-details"  data-aos="fade-left">
           <h3>BAGS-STORE</h3>
           <span>(Fully Functional)</span>
           <p>
@@ -487,7 +478,7 @@
         <div class="circle-extension"></div>
       </div>
       <div class="project project5">
-        <div class="project-details">
+        <div class="project-details"  data-aos="fade-right">
           <h3>Women Safety & Bracelet</h3>
           <span>Security</span>
           <p>
@@ -581,7 +572,7 @@
             </a>
           </div>
         </div>
-        <div class="project-details">
+        <div class="project-details"  data-aos="fade-left">
           <h3>MoviX</h3>
           <span>(Platform for watch moview)</span>
           <p>
@@ -606,8 +597,8 @@
         ></a>
         <div class="circle-extension"></div>
       </div>
-      <div class="project project">
-        <div class="project-details">
+      <div class="project project1">
+        <div class="project-details" data-aos="flip-left">
           <h3>Food delevary</h3>
           <span>(Food Startup)</span>
           <p>
@@ -711,7 +702,7 @@
             </a>
           </div>
         </div>
-        <div class="project-details">
+        <div class="project-details" data-aos="fade-down-right">
           <h3>Simple calculaotr</h3>
           <span>(Productivity Tool)</span>
           <p>
@@ -737,7 +728,7 @@
         <div class="circle-extension"></div>
       </div>
       <div class="project project5">
-        <div class="project-details">
+        <div class="project-details" data-aos="fade-down">
           <h3>Previous portfolio</h3>
           <span>(portfolio)</span>
           <p>
@@ -804,7 +795,9 @@
       <div class="vertical-line"></div>
       <!-- <div class="vertical-line2"></div> -->
     </section>
-    <section class="skills-section work-section">
+
+    
+    <section class="skills-section work-section" data-aos="zoom-in">
       <h2>Skills</h2>
       
       <!-- Combined Skills -->
@@ -949,6 +942,11 @@
 
     <script src="./matter.js"></script>
     <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
   </body>
 </html>
 
